@@ -1,6 +1,6 @@
 # baidu-translate-service
 
-该库通过封装了百度翻译的API信息，支持浏览器，客户端，nodejs调用百度翻译接口，欢迎大家使用，记得[start](https://github.com/mu-kang/baidu-translate-service.git)
+该库通过封装了百度翻译的API信息，支持浏览器，客户端，nodejs调用百度翻译接口，欢迎大家使用，记得[start](https://github.com/vue-viewer-editor/vve-baidu-translate-service.git)
 
 ## parameter
 
@@ -25,7 +25,7 @@ action|	integer|	否	|判断是否需要使用自定义术语干预API|	1-是，
 >Browsers
 
 ```html
-<script src="https://unpkg.com/baidu-translate-service/lib/baiduTranslateService.js"></script>
+<script src="https://unpkg.com/vve-baidu-translate-service/lib/baiduTranslateService.js"></script>
 
 <script>
   baiduTranslateService({
@@ -43,11 +43,11 @@ action|	integer|	否	|判断是否需要使用自定义术语干预API|	1-是，
 >Nodejs
 
 ```bash
-npm install baidu-translate-service
+npm install vve-baidu-translate-service
 ```
 
 ```javascript
-var baiduTranslateService = require("baidu-translate-service");
+var baiduTranslateService = require("vve-baidu-translate-service");
 
 baiduTranslateService({
   appid: "",
