@@ -1,4 +1,5 @@
 const path = require("path");
+const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.ts",
@@ -14,6 +15,16 @@ module.exports = {
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
+  },
+  optimization: {
+    minimize: true,
+    minimizer: [
+      // Webpack 5 打包自动生成license文件, 通过自定义配置来规避此问题
+      new TerserPlugin({
+        // https://www.npmjs.com/package/terser-webpack-plugin
+        extractComments: /@extract/i, // 防止is-buffer库的@license的信息被导出来，限制一下 
+      }),
+    ],
   },
   output: {
     filename: "baiduTranslateService.js",

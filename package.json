@@ -1,6 +1,6 @@
 {
   "name": "vve-baidu-translate-service",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "description": "BaiDu Universal translation API access document",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -24,7 +24,7 @@
   "unpkg": "lib/baiduTranslateService.js",
   "scripts": {
     "build": "webpack && tsc",
-    "test": "node test.js"
+    "release": "standard-version"
   },
   "keywords": [
     "baidu-translate",
@@ -33,6 +33,9 @@
   ],
   "author": "nianqin",
   "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "md5": "^2.3.0",
     "node-fetch": "^2.6.11",
@@ -41,6 +44,8 @@
   "devDependencies": {
     "@types/md5": "^2.3.2",
     "@types/node-fetch": "^2.6.4",
+    "standard-version": "^9.5.0",
+    "terser-webpack-plugin": "^5.3.10",
     "ts-loader": "^9.4.3",
     "typescript": "^5.1.3",
     "webpack": "^5.88.0",
