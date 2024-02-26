@@ -17,6 +17,11 @@
       }
     }
   },
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/vue-viewer-editor/vve-baidu-translate-service"
