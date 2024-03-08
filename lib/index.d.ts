@@ -28,7 +28,7 @@ interface OptionsType {
  * @options from   翻译源语言	可设置为auto
  * @options tts    是否显示语音合成资源	0-显示，1-不显示
  * @options dict   是否显示词典资源	0-显示，1-不显示
- * @options action 判断是否需要使用自定义术语干预API	1-是，0-否
- * */
+ * @options action 判断是否需要使用自定义术语干预API，1-是，0-否
+ **/
 declare function BaiduTranslateService(options: OptionsType): Promise<Response>;
 export default BaiduTranslateService;

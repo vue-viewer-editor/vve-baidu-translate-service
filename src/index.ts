@@ -1,3 +1,5 @@
+// https://api.fanyi.baidu.com/product/113
+
 import fetcher, { Response } from "node-fetch";
 import qs from "querystring";
 import MD5 from "md5";
@@ -38,7 +40,7 @@ const params: OptionsType = {
 };
 
 /** fetch 百度翻译文档地址 */
-const BaiduTranslateAPIUrl: string = `http://api.fanyi.baidu.com/api/trans/vip/translate`;
+const BaiduTranslateAPIUrl: string = `https://fanyi-api.baidu.com/api/trans/vip/translate`;
 
 /**
  * @name 百度翻译请求接口
@@ -68,5 +70,6 @@ function BaiduTranslateService(options: OptionsType): Promise<Response> {
       .catch(reject);
   });
 }
+
 export default BaiduTranslateService;
 module.exports = BaiduTranslateService;
