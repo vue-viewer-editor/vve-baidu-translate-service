@@ -47,7 +47,7 @@ npm install vve-baidu-translate-service
 ```
 
 ```javascript
-var baiduTranslateService = require("vve-baidu-translate-service").default;
+const baiduTranslateService = require("vve-baidu-translate-service").default;
 
 baiduTranslateService({
   appid: "",
