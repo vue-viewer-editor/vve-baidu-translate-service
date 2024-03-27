@@ -19,7 +19,7 @@ module.exports = {
     extensions: [".tsx", ".ts", ".js"],
   },
   optimization: {
-    minimize: true,
+    minimize: false,
     minimizer: [
       // Webpack 5 打包自动生成license文件, 通过自定义配置来规避此问题
       new TerserPlugin({

@@ -12,6 +12,9 @@
       "browser": {
         "default": "./lib/baiduTranslateService.js"
       },
+      "require": {
+        "default": "./lib/index.js"
+      },
       "default": {
         "default": "./lib/index.js"
       }

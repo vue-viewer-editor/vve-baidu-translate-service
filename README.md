@@ -22,7 +22,7 @@ action|	integer|	否	|判断是否需要使用自定义术语干预API|	1-是，
 
 ## Demo
 
->Browsers
+>Browsers (接口请求存在跨域问题)
 
 ```html
 <script src="https://unpkg.com/vve-baidu-translate-service/lib/baiduTranslateService.js"></script>
@@ -47,7 +47,7 @@ npm install vve-baidu-translate-service
 ```
 
 ```javascript
-var baiduTranslateService = require("vve-baidu-translate-service");
+var baiduTranslateService = require("vve-baidu-translate-service").default;
 
 baiduTranslateService({
   appid: "",
