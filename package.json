@@ -29,6 +29,7 @@
   "unpkg": "lib/baiduTranslateService.js",
   "scripts": {
     "build": "webpack && tsc",
+    "build:tsc": "tsc",
     "lint": "eslint src --ext .ts",
     "test": "mocha",
     "release": "standard-version"
