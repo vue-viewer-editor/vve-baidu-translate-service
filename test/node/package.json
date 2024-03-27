@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vve-baidu-translate-service": "^3.0.1"
+    "vve-baidu-translate-service": "^3.0.2"
   }
 }
