@@ -50,7 +50,7 @@
   "dependencies": {
     "md5": "^2.3.0",
     "node-fetch": "^2.6.11",
-    "querystring": "^0.2.1"
+    "qs": "^6.14.0"
   },
   "devDependencies": {
     "@types/chai": "^4.3.12",

@@ -1,7 +1,7 @@
 // https://api.fanyi.baidu.com/product/113
 
 import fetcher, { Response } from "node-fetch";
-import qs from "querystring";
+import qs from "qs";
 import MD5 from "md5";
 
 interface OptionsType {
