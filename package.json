@@ -1,6 +1,6 @@
 {
   "name": "vve-baidu-translate-service",
-  "version": "3.0.2",
+  "version": "3.1.0",
   "description": "BaiDu Universal translation API access document",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
