@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.1.1](https://github.com/vue-viewer-editor/vve-baidu-translate-service/compare/v3.0.2...v3.1.1) (2025-02-10)
+
 ### [3.0.2](https://github.com/vue-viewer-editor/vve-baidu-translate-service/compare/v3.0.1...v3.0.2) (2024-03-27)
 
 ### [3.0.1](https://github.com/vue-viewer-editor/vve-baidu-translate-service/compare/v2.3.1...v3.0.1) (2024-03-27)
